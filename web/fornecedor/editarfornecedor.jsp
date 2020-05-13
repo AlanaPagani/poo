@@ -1,7 +1,7 @@
 <%-- 
     Document   : editarfornecedor
-    Created on : 11/05/2020, 15:38:00
-    Author     : User
+    Created on : 11/05/2020, 19:24:03
+    Author     : Alana
 --%>
 
 <%@page import="com.cad.BdFornecedor"%>

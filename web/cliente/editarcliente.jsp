@@ -1,7 +1,7 @@
 <%-- 
     Document   : editarcliente
-    Created on : 11/05/2020, 15:36:26
-    Author     : Marcos Paulo da Rocha Moura Miúdo
+    Created on : 11/05/2020, 18:44:22
+    Author     : Alana
 --%>
 
 <%@page import="com.cad.BdCliente"%>
@@ -21,7 +21,7 @@
     }
     
            if ( request.getParameter("edit") != null){
-            String Nomecliente = request.getParameter("NomeCliente");
+            String Nomecliente = request.getParameter("Nomecliente");
             String Emailcliente = request.getParameter("Emailcliente");
             String Enderecocliente= request.getParameter("Enderecocliente");
             int Telefonecliente = Integer.parseInt( request.getParameter("Telefonecliente"));
